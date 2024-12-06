@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/avukadin/goapi/api"
-	"github.com/avukadin/goapi/internal/tools"
 	log "github.com/sirupsen/logrus"
+	"github.com/ssheffk/go-learn/go-webserver/go-api/api"
+	"github.com/ssheffk/go-learn/go-webserver/go-api/internal/tools"
 )
 
 var UnAuthorizedError = errors.New(fmt.Sprintf("Invalid username or token."))
@@ -31,7 +31,7 @@ func Authorization(next http.Handler) http.Handler {
 		}
 
 		var loginDetails *tools.LoginDetails
-		loginDetails, err = database.GetUserLoginDetails(username)
+		loginDetails = (*database).GetUserLoginDetails(username)
 
 		if loginDetails == nil || (token != (*loginDetails).AuthToken) {
 			log.Error(UnAuthorizedError)
