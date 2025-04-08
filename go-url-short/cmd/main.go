@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-leran/go-url-short/internal/urlshort"
+	"github.com/go-learn/go-url-short/internal/urlshort"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/go-leran/go-url-short
+module github.com/go-learn/go-url-short
 
 go 1.23.4
 
