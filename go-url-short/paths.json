@@ -1,0 +1,10 @@
+[
+  {
+    "path": "/urlshort",
+    "url": "https://github.com/ssheffk/go-learn/go-url-short"
+  },
+  {
+    "path": "/urlshort-main-file",
+    "url": "https://github.com/ssheffk/go-learn/go-url-short/cmd"
+  }
+]
