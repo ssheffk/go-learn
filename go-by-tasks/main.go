@@ -9,4 +9,6 @@ func main() {
 	utils.DemoStrings()
 	utils.DemoArrays()
 	utils.DemoMaps()
+	utils.ControlFlowDemo()
+	utils.FunctionsDemo()
 }
