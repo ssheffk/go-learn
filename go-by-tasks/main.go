@@ -11,4 +11,6 @@ func main() {
 	utils.DemoMaps()
 	utils.ControlFlowDemo()
 	utils.FunctionsDemo()
+	utils.StructsMethodsDemo()
+	utils.InterfacesDemo()
 }
